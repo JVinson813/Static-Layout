@@ -1,0 +1,125 @@
+body{
+    background-image: url("https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48");
+    
+}
+
+.Logo { grid-area: Logo; }
+.Trial { grid-area: Trial; }
+.Dis { grid-area: Dis; }
+.Info { grid-area: Info; }
+.Bundle { grid-area: Bundle; }
+
+.grid-container {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-areas: 
+    'Logo Logo Logo Logo Logo Logo'
+    'Trial Trial Trial Trial Trial Trial'
+    'Dis Dis Info Info Info Bundle';
+    grid-column-gap: 0px;
+    
+
+}
+
+.grid-container > div {
+    background-color: transparent;
+    text-align: center;
+    margin: 10px; 
+ }
+
+
+
+.Logo {
+    color: rgb(49, 160, 160);
+    font-size: 20px;
+    
+}
+
+.ESPN{
+    height: 100px;
+    
+    
+    
+}
+
+.HULU {
+    height: 100px;
+}
+
+
+
+.Trial {
+      height: 150px;
+      color: white;
+      font-size: 13px;
+
+  }
+
+.Dis {
+    background-color: rgb(2, 68, 68) !important;
+    margin: 0px !important;
+      
+  }
+
+  .button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .Info{
+      color: white ;
+      text-align: left !important;
+      background-color: rgb(2, 68, 68) !important;
+      margin: 0px !important;
+  }
+
+  h4{
+      color: rgb(8, 230, 230);
+  }
+
+  
+.Info > h6{
+    color: rgb(2, 68, 68);
+}
+
+.Info > a{
+    color: grey;
+}
+
+.Bundle{
+    color:;
+    background-color: rgb(2, 68, 68) !important;
+    padding: 20px;
+    margin: 0px !important;
+}
+  
+.bundle{
+    color: white;
+    background-color: rgb(2, 68, 68);
+    padding: 20px;
+    border: solid white;
+    
+    
+}
+
+a:link{
+    color: gray;
+    
+}
+
+a:hover{
+    color: white;
+}
+
+.grid-row-wrapper{
+    background-color: teal;
+}
